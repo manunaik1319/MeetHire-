@@ -1,0 +1,96 @@
+<svg width="450" height="500" viewBox="0 0 450 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="225" cy="250" r="180" fill="#FFF8E7" opacity="0.5"/>
+  
+  <!-- Main Form/Document -->
+  <rect x="100" y="100" width="250" height="350" rx="20" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="4"/>
+  
+  <!-- Form Header -->
+  <rect x="100" y="100" width="250" height="60" rx="20" fill="#FBCB6A"/>
+  <text x="150" y="140" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1C1C1C">Join Waitlist</text>
+  
+  <!-- Form Fields -->
+  <g opacity="0.8">
+    <!-- Name Field -->
+    <rect x="120" y="180" width="210" height="40" rx="10" fill="#FFF8E7" stroke="#F4A940" stroke-width="2"/>
+    <text x="130" y="205" font-family="Arial, sans-serif" font-size="14" fill="#999">Full Name</text>
+    
+    <!-- Email Field -->
+    <rect x="120" y="235" width="210" height="40" rx="10" fill="#FFF8E7" stroke="#F4A940" stroke-width="2"/>
+    <text x="130" y="260" font-family="Arial, sans-serif" font-size="14" fill="#999">Email Address</text>
+    
+    <!-- Role Field -->
+    <rect x="120" y="290" width="210" height="40" rx="10" fill="#FFF8E7" stroke="#F4A940" stroke-width="2"/>
+    <text x="130" y="315" font-family="Arial, sans-serif" font-size="14" fill="#999">Your Role</text>
+    
+    <!-- Organization Field -->
+    <rect x="120" y="345" width="210" height="40" rx="10" fill="#FFF8E7" stroke="#F4A940" stroke-width="2"/>
+    <text x="130" y="370" font-family="Arial, sans-serif" font-size="14" fill="#999">Organization</text>
+  </g>
+  
+  <!-- Submit Button -->
+  <rect x="140" y="405" width="170" height="45" rx="12" fill="url(#buttonGradient)"/>
+  <text x="175" y="433" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1C1C1C">Submit →</text>
+  
+  <defs>
+    <linearGradient id="buttonGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FBCB6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4A940;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Floating People Icons -->
+  <g transform="translate(50, 200)">
+    <circle cx="0" cy="0" r="30" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="3"/>
+    <text x="-15" y="10" font-size="30">🎓</text>
+  </g>
+  
+  <g transform="translate(380, 250)">
+    <circle cx="0" cy="0" r="30" fill="#FFFFFF" stroke="#F4A940" stroke-width="3"/>
+    <text x="-15" y="10" font-size="30">💼</text>
+  </g>
+  
+  <g transform="translate(70, 350)">
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF" stroke="#6BBF59" stroke-width="2"/>
+    <text x="-12" y="8" font-size="24">👨‍🎓</text>
+  </g>
+  
+  <g transform="translate(370, 180)">
+    <circle cx="0" cy="0" r="25" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="2"/>
+    <text x="-12" y="8" font-size="24">👩‍💼</text>
+  </g>
+  
+  <!-- Checkmarks/Success Icons -->
+  <g transform="translate(360, 380)">
+    <circle cx="0" cy="0" r="20" fill="#6BBF59"/>
+    <path d="M -8 0 L -3 5 L 8 -6" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="80" cy="120" r="10" fill="#FBCB6A" opacity="0.4"/>
+  <circle cx="370" cy="420" r="12" fill="#F4A940" opacity="0.4"/>
+  <circle cx="390" cy="320" r="8" fill="#6BBF59" opacity="0.4"/>
+  
+  <!-- Stars -->
+  <path d="M 100 80 L 105 85 L 110 80 L 105 75 Z" fill="#FBCB6A" opacity="0.6"/>
+  <path d="M 350 100 L 355 105 L 360 100 L 355 95 Z" fill="#F4A940" opacity="0.6"/>
+  <path d="M 225 60 L 230 65 L 235 60 L 230 55 Z" fill="#6BBF59" opacity="0.6"/>
+  
+  <!-- Connection Lines -->
+  <path d="M 80 200 Q 100 180 120 180" stroke="#FBCB6A" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+  <path d="M 350 250 Q 360 240 330 235" stroke="#F4A940" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+  
+  <!-- Badge/Verified Icon -->
+  <g transform="translate(225, 480)">
+    <circle cx="0" cy="0" r="35" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="3"/>
+    <circle cx="0" cy="0" r="28" fill="url(#badgeGradient)"/>
+    <path d="M -12 0 L -5 8 L 15 -12" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" fill="none"/>
+  </g>
+  
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBCB6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4A940;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

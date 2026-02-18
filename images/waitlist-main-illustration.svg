@@ -1,0 +1,75 @@
+<svg width="500" height="500" viewBox="0 0 500 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Circle -->
+  <circle cx="250" cy="250" r="200" fill="#FFF8E7" opacity="0.4"/>
+  
+  <!-- College Building (Left) -->
+  <g transform="translate(80, 200)">
+    <rect x="0" y="40" width="100" height="120" rx="6" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="3"/>
+    <path d="M 50 0 L 110 40 L -10 40 Z" fill="#FBCB6A" stroke="#F4A940" stroke-width="2"/>
+    <rect x="15" y="60" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="42.5" y="60" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="70" y="60" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="15" y="95" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="42.5" y="95" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="70" y="95" width="15" height="20" rx="2" fill="#FFF8E7" stroke="#F4A940" stroke-width="1"/>
+    <rect x="35" y="130" width="30" height="30" rx="3" fill="#1C1C1C"/>
+    <text x="30" y="-10" font-size="24">🎓</text>
+  </g>
+  
+  <!-- Company Building (Right) -->
+  <g transform="translate(320, 200)">
+    <rect x="0" y="20" width="100" height="140" rx="6" fill="#FFFFFF" stroke="#F4A940" stroke-width="3"/>
+    <rect x="15" y="40" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="41" y="40" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="67" y="40" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="15" y="72" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="41" y="72" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="67" y="72" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="15" y="104" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="41" y="104" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="67" y="104" width="18" height="22" rx="2" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="1"/>
+    <rect x="35" y="136" width="30" height="24" rx="3" fill="#1C1C1C"/>
+    <text x="30" y="0" font-size="24">💼</text>
+  </g>
+  
+  <!-- Center Verified Badge -->
+  <g transform="translate(250, 250)">
+    <circle cx="0" cy="0" r="60" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="4"/>
+    <circle cx="0" cy="0" r="50" fill="url(#badgeGradient)"/>
+    <path d="M -20 0 L -10 15 L 25 -20" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <text x="-25" y="35" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#1C1C1C">VERIFIED</text>
+  </g>
+  
+  <defs>
+    <linearGradient id="badgeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBCB6A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F4A940;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Connection Lines -->
+  <path d="M 180 280 Q 250 260 320 280" stroke="#FBCB6A" stroke-width="3" stroke-dasharray="8 4" fill="none" opacity="0.6"/>
+  
+  <!-- Dashboard Cards (Floating) -->
+  <g transform="translate(150, 120)">
+    <rect x="0" y="0" width="80" height="50" rx="6" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="2"/>
+    <rect x="8" y="12" width="64" height="6" rx="3" fill="#FBCB6A" opacity="0.4"/>
+    <rect x="8" y="24" width="50" height="6" rx="3" fill="#F4A940" opacity="0.4"/>
+    <rect x="8" y="36" width="55" height="6" rx="3" fill="#FBCB6A" opacity="0.4"/>
+  </g>
+  
+  <g transform="translate(270, 380)">
+    <rect x="0" y="0" width="80" height="50" rx="6" fill="#FFFFFF" stroke="#F4A940" stroke-width="2"/>
+    <circle cx="15" cy="15" r="8" fill="#6BBF59"/>
+    <path d="M 11 15 L 14 18 L 19 12" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" fill="none"/>
+    <rect x="28" y="12" width="44" height="4" rx="2" fill="#FBCB6A" opacity="0.4"/>
+    <rect x="28" y="22" width="35" height="4" rx="2" fill="#F4A940" opacity="0.4"/>
+    <rect x="8" y="35" width="64" height="6" rx="3" fill="#6BBF59" opacity="0.3"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="150" r="8" fill="#FBCB6A" opacity="0.3"/>
+  <circle cx="400" cy="180" r="10" fill="#F4A940" opacity="0.3"/>
+  <circle cx="380" cy="400" r="6" fill="#6BBF59" opacity="0.3"/>
+  <circle cx="120" cy="380" r="7" fill="#FBCB6A" opacity="0.3"/>
+</svg>

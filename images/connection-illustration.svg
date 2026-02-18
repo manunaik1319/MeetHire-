@@ -1,0 +1,27 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Left Person (College) -->
+  <circle cx="80" cy="120" r="35" fill="#FBCB6A"/>
+  <text x="62" y="133" font-size="32">🎓</text>
+  <rect x="50" y="165" width="60" height="80" rx="10" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="2"/>
+  <text x="58" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1C1C1C">College</text>
+  
+  <!-- Right Person (Company) -->
+  <circle cx="220" cy="120" r="35" fill="#F4A940"/>
+  <text x="202" y="133" font-size="32">💼</text>
+  <rect x="190" y="165" width="60" height="80" rx="10" fill="#FFF8E7" stroke="#F4A940" stroke-width="2"/>
+  <text x="195" y="210" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#1C1C1C">Company</text>
+  
+  <!-- Connection Lines -->
+  <path d="M 110 200 Q 150 180 190 200" stroke="#FBCB6A" stroke-width="4" stroke-dasharray="8 4" fill="none"/>
+  <path d="M 110 210 Q 150 230 190 210" stroke="#F4A940" stroke-width="4" stroke-dasharray="8 4" fill="none"/>
+  
+  <!-- Center Icon -->
+  <circle cx="150" cy="205" r="25" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="3"/>
+  <text x="137" y="218" font-size="24">🔗</text>
+  
+  <!-- Floating Documents -->
+  <rect x="130" y="100" width="40" height="50" rx="4" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="2" opacity="0.8"/>
+  <rect x="135" y="110" width="30" height="3" rx="1.5" fill="#FBCB6A"/>
+  <rect x="135" y="120" width="25" height="3" rx="1.5" fill="#F4A940"/>
+  <rect x="135" y="130" width="28" height="3" rx="1.5" fill="#FBCB6A"/>
+</svg>

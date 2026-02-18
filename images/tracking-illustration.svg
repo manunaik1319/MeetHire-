@@ -1,0 +1,38 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Dashboard Screen -->
+  <rect x="50" y="50" width="200" height="200" rx="15" fill="#FFFFFF" stroke="#FBCB6A" stroke-width="3"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="200" height="35" rx="15" fill="#FBCB6A"/>
+  <text x="75" y="73" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1C1C1C">Placement Tracker</text>
+  
+  <!-- Progress Bars -->
+  <g>
+    <rect x="70" y="110" width="160" height="20" rx="10" fill="#FFF8E7"/>
+    <rect x="70" y="110" width="120" height="20" rx="10" fill="#FBCB6A"/>
+    <text x="75" y="103" font-family="Arial, sans-serif" font-size="10" fill="#666">Applications Sent</text>
+  </g>
+  
+  <g>
+    <rect x="70" y="155" width="160" height="20" rx="10" fill="#FFF8E7"/>
+    <rect x="70" y="155" width="90" height="20" rx="10" fill="#F4A940"/>
+    <text x="75" y="148" font-family="Arial, sans-serif" font-size="10" fill="#666">Responses Received</text>
+  </g>
+  
+  <g>
+    <rect x="70" y="200" width="160" height="20" rx="10" fill="#FFF8E7"/>
+    <rect x="70" y="200" width="60" height="20" rx="10" fill="#6BBF59"/>
+    <text x="75" y="193" font-family="Arial, sans-serif" font-size="10" fill="#666">Drives Scheduled</text>
+  </g>
+  
+  <!-- Chart Icon -->
+  <g transform="translate(180, 95)">
+    <rect x="0" y="20" width="8" height="25" rx="2" fill="#FBCB6A"/>
+    <rect x="12" y="10" width="8" height="35" rx="2" fill="#F4A940"/>
+    <rect x="24" y="5" width="8" height="40" rx="2" fill="#6BBF59"/>
+  </g>
+  
+  <!-- Decorative Elements -->
+  <circle cx="230" cy="80" r="15" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="2"/>
+  <text x="222" y="87" font-size="16">📊</text>
+</svg>

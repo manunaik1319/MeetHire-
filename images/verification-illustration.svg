@@ -1,0 +1,18 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield Background -->
+  <path d="M150 30 L230 70 L230 150 Q230 220 150 270 Q70 220 70 150 L70 70 Z" fill="#FFF8E7" stroke="#FBCB6A" stroke-width="4"/>
+  
+  <!-- Inner Shield -->
+  <path d="M150 60 L210 90 L210 150 Q210 200 150 240 Q90 200 90 150 L90 90 Z" fill="#FFFFFF" stroke="#F4A940" stroke-width="3"/>
+  
+  <!-- Checkmark -->
+  <path d="M120 150 L145 175 L185 125" stroke="#FBCB6A" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Decorative Stars -->
+  <circle cx="100" cy="100" r="4" fill="#F4A940"/>
+  <circle cx="200" cy="100" r="4" fill="#F4A940"/>
+  <circle cx="150" cy="50" r="4" fill="#FBCB6A"/>
+  
+  <!-- Badge Text -->
+  <text x="150" y="260" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1C1C1C" text-anchor="middle">VERIFIED</text>
+</svg>

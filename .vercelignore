@@ -1,0 +1,9 @@
+.kiro
+.vscode
+node_modules
+.git
+.gitignore
+docs
+tests
+*.md
+google-apps-script.js

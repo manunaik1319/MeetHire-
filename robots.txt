@@ -1,0 +1,11 @@
+# robots.txt for MeetHire
+User-agent: *
+Allow: /
+Disallow: /test-*
+Disallow: /*.md$
+
+# Sitemap
+Sitemap: https://www.meethire.in/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
